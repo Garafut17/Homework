@@ -97,6 +97,8 @@
   display:flex;
   flex-direction:row;
   margin-bottom:50px;
+  border: 1px solid #C6CBCD;
+  border-radius: 1px;
 }
 
 .awesome__tab-content p{
@@ -106,6 +108,7 @@
   font-size: 18px;
   line-height: 21px;
   margin-right: 30px;
+  padding-left: 100px;
 }
 
 .awesome__tab-content h2{
@@ -114,17 +117,11 @@
   font-weight: bold;
   font-size: 30px;
   line-height: 41px;
-  padding: 40px 0;
+  padding: 40px 100px 0;
   margin-bottom: 25px;
   
-  
 }
 
-.asomewe__content-text{
-  flex-direction:column;
-  margin-left: 100px;
-
-}
 
 .awesome__tab-content button{
   font-family: 'Open Sans';
@@ -137,7 +134,7 @@
   text-transform: capitalize;
   width: 270px;
   height: 58px;
-  margin-top: 28px;
+  margin: 28px 100px;
   background: #EC7979;
   border:none;
 }
