@@ -163,13 +163,16 @@
   background: #EC7979;
   border:none;
 }
+
 /*Section Pricing options styles*/
+
 .pricing{
   margin-top: 60px;
   padding-bottom: 50px;
   background: #F5F5F5;
   width: 100%;
 }
+
 .pricing__tittle-wrapper{
   padding-top: 50px;
   height: 150px;
@@ -177,22 +180,27 @@
   align-items: center;
   justify-content: center;
 }
+
 .pricing__sheet{
   margin-top: 80px;
   display: flex;
   justify-content: center;;
 }
+
 .pricing__card{
   width: 370px;
   margin:0 30px;
 }
+
 .pricing__card_hover{
   width: 370px;
   margin-top:-20px;
 }
+
 .card__shadow{
   box-shadow: 0px 0px 10px 2px #b4b4b4;
 }
+
 .pricing__card-top{
   background: #333333;
   display: flex;
@@ -200,6 +208,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .pricing__card-title{
   display: flex;
   flex-direction: column;
@@ -216,6 +225,7 @@
   margin: auto;
   vertical-align: middle;
 }
+
 .pricing__card-price{
   display: flex;
   flex-direction: column;
@@ -233,6 +243,7 @@
   border-right:none;
   border-left:none;
 }
+
 .pricing__card-subtitle{
   height: 50px;
   font-family: "Raleway";
@@ -245,12 +256,14 @@
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
 }
+
 .pricing__card-list{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .pricing__card-list-item{
   display: flex;
   justify-content: center;
@@ -267,3 +280,18 @@
   border-bottom: 2px solid #F5F5F5;
 }
 
+/* Customer section styles*/
+
+.customers__subtitle{
+  font-family: "Raleway";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #86878B;
+  margin-bottom: 80px;
+}
+
+.comment{
+  display: flex;
+}
