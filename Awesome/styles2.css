@@ -347,3 +347,48 @@
   font: normal normal normal 18px/1.16 "Raleway";
 }
 
+/*Design section styles*/
+
+.design-section{
+  background-image: url("images/Design_background.png"),
+                    url("images/bg.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+}
+
+.design-section h1{
+  font: normal normal normal 36px/1.16 "Raleway";
+  color:#FFFFFF;
+  text-align: center;
+  padding: 100px 0 50px 0;
+}
+
+.design-section p{
+  font: normal normal normal 18px/1.16 "Raleway";
+  color:#FFFFFF;
+  text-align: center;
+}
+
+.design-section__line{
+  width: 170px;
+  height: 1px;
+  border-top: 1px solid #FFFFFF;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.design-section button{
+  font: normal normal 600 18px/1.39 "Raleway";
+  color:#FFFFFF;
+  text-align: center;
+  line-height: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  width: 370px;
+  height: 58px;
+  margin: 70px 0 50px 0;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #FFFFFF;
+}
