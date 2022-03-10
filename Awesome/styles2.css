@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;700&display=swap');
 .awesome{
   font-family: "Raleway";
-  font-weight: normal;
 }
 
 .header{
@@ -9,6 +8,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .header img{
   margin: 22px 0 22px 115px;
 }
@@ -16,7 +16,7 @@
 .header__menu{
   display: flex;
   justify-content: right;
-  align-items:center;
+  align-items: center;
   margin-right: 170px;
 }
 
@@ -54,9 +54,7 @@
 
 .awesome__subtitle{
   font-family: "Raleway";
-  font-weight: normal;
   font-size: 18px;
-  line-height: 21px;
   text-align: center;
   color: #86878B;
   margin: auto;
@@ -67,6 +65,7 @@
   display: flex;
   justify-content: center;
 }
+
 .awesome__block{
   display: inline-block;
   width: 370px;
@@ -93,9 +92,7 @@
 
 .awesome__header5__black{
   font-family: "Raleway";
-  font-weight: normal;
   font-size: 18px;
-  line-height: 21px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -107,8 +104,6 @@
   width: 200px;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   background-color: rgb(255, 255, 255);
@@ -120,8 +115,6 @@
   width:200px;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   background-color: rgb(255, 255, 255);
@@ -136,7 +129,6 @@
   margin: 0 auto;
   margin-top: 100px;
   width: 1170px;
-  
 }
 
 .awesome__tabs-container{
@@ -155,9 +147,7 @@
 }
 
 .awesome__tab-content p{
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Raleway";
   font-size: 18px;
   line-height: 21px;
   margin-right: 30px;
@@ -166,7 +156,6 @@
 
 .awesome__tab-content h2{
   font-family: 'Open Sans';
-  font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 41px;
@@ -176,10 +165,9 @@
 
 .awesome__tab-content button{
   font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  color:white;
+  color: white;
   line-height: 25px;
   text-align: center;
   text-transform: capitalize;
@@ -210,7 +198,7 @@
 .pricing__sheet{
   margin-top: 80px;
   display: flex;
-  justify-content: center;;
+  justify-content: center;
 }
 
 .pricing__card{
@@ -242,7 +230,6 @@
   align-items: center;
   height: 60px;
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 33px;
@@ -259,8 +246,7 @@
   align-items: center;
   width: 100%;
   height: 100px;
-  font-family: Raleway;
-  font-style: normal;
+  font-family: "Raleway";
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -273,8 +259,6 @@
 .pricing__card-subtitle{
   height: 50px;
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   display: flex;
@@ -298,8 +282,6 @@
   height: 50px;
   background: #FFFFFF;
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: normal;
   color: #86878B;
   font-size: 18px;
   line-height: 21px;
@@ -314,7 +296,6 @@
 
 .customers__subtitle{
   font-family: "Raleway";
-  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
@@ -332,13 +313,11 @@
   width: 94%
 }
 
-.quotation__text{
+.quotation p{
   background: #E2E2E2;
   border-radius: 10px;
   padding:38px 24px;
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: #86878B;
@@ -350,10 +329,10 @@
   left: 70px;
   top: -1px;
   width: 0;
-	height: 0;
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	border-top: 21px solid #E2E2E2;
+  height: 0;
+  border-top: 21px solid #E2E2E2;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
 }
 
 .person{
@@ -425,7 +404,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .contact__tittle-wrapper{
@@ -437,7 +415,6 @@
 
 .contact__subtitle{
   font-family: "Raleway";
-  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
@@ -465,11 +442,11 @@
 
 .contact-form p{
   font: normal normal normal 14px/1.36 "Open Sans";
-  color:#BDBDBD
+  color: #BDBDBD
 }
 
 .contact-form__line{
-  width: 99.3%;
+  width: 99%;
   height: 1px;
   border-bottom: 1px solid #BDBDBD;
   padding-top: 16px;
@@ -482,7 +459,7 @@
   width: 49%;
 }
 .contact-form__line_left{
-  width: 99.4%;
+  width: 99%;
   height: 1px;
   border-bottom: 1px solid #BDBDBD;
   padding-top: 16px;
@@ -491,7 +468,6 @@
 
 .contact-form__button{
   font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   color: white;
@@ -503,16 +479,16 @@
   margin: 0 auto;
   margin-bottom:50px;
   background: #EC7979;
-  border:none;
+  border: none;
 }
 
 /*footer section*/
 
 .footer{
-background-color: #000000;
-display: flex;
-flex-direction: column;
-text-align: center;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .footer__icons-block{
@@ -526,9 +502,11 @@ text-align: center;
   width: 55px;
   margin: 35px 15px 0 15px;
 }
+
 .fa {
   color: #CCCCCC;
 }
+
 .footer p{
   font: normal normal normal 18px/1.16 "Raleway";
   color: rgba(255, 255, 255, 0.5);
