@@ -17,7 +17,7 @@
 .header__menu{
   display: flex;
   justify-content: right;
-  align-items:center;
+  align-items: center;
   margin-right: 170px;
 }
 
