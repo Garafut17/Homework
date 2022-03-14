@@ -521,9 +521,8 @@
 }
 
 .banner__title-content{
-  margin-right: 30px;
   margin-bottom: 20px;
-  width:45%;
+  width: 45%;
 
 }
 .banner__title{
@@ -534,7 +533,7 @@
 .banner__subtitle{
   font: normal normal normal 18px/1.16 "Raleway";
   color: #FFFFFF;
-  width:45%;
+  width: 45%;
 }
 
 .banner__line{
@@ -559,7 +558,7 @@
   width: 370px;
   height: 58px;
   margin-top: 40px;
-  margin-left: 10%;
+  margin-left: 170px;
   margin-bottom: 200px;
   background-color: rgba(255, 255, 255, 0);
   border: 2px solid #FFFFFF;
@@ -588,7 +587,7 @@
 .banner-form__title{
   font: normal normal 700 24px"Open Sans";
   text-align: center;
-  margin: 35px 0 80px 0;
+  margin: 35px 0 60px 0;
 }
 
 .banner-form__title span{
@@ -610,4 +609,42 @@
   height: 60px;
   background: #EC7979;
   border: none;
+}
+/*Social section*/
+
+.social{
+  background-color: #F8EFEF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social__icons-block{
+  display: flex;
+  justify-content: center;
+  margin-right: 170px;
+}
+
+.social__icon-wrapper{
+  display: flex;
+  justify-content: center;
+  width: 55px;
+  margin: 45px 20px 45px 20px;
+}
+
+.social__text-wrapper{
+  width: 470px;
+  margin-left: 170px;
+}
+
+.social__title{
+  font: normal normal 700 24px/1.35 "Open Sans";
+  color: #333333;
+}
+
+.social__subtitle{
+  font-family: "Raleway";
+  font-size: 18px;
+  color: #86878B;
+  margin-top: 18px;
 }
