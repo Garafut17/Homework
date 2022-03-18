@@ -10,14 +10,14 @@
 }
 
 .header__logo{
-  margin: 22px 0 22px 115px;
+  margin: 22px 0 22px 6%;
 }
 
 .header__menu{
   display: flex;
   justify-content: right;
   align-items: center;
-  margin-right: 170px;
+  margin-right: 10%;
 }
 
 .header__menu li{
@@ -297,6 +297,7 @@
 
 .comments{
   display: flex;
+  justify-content: space-around;
 }
 
 .quotation{
@@ -327,10 +328,17 @@
   border-left: 15px solid transparent;
 }
 
+.comment__wrapper{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  width: 33%;
+}
+
 .person{
   display: flex;
-  justify-content: space-between;
   width: 80%;
+  justify-content: space-between;
   margin: 46px 0 64px 0;
 }
 
@@ -512,17 +520,21 @@
 /*banner2 section*/
 .banner{
   background: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url("images/banner_background.png");
-  background-size: cover;
+  background-size: 100% 100%;
+  width: 100%;
+  padding-bottom: 200px;
 }
+
 .banner__wrapper{
   display: flex;
   justify-content: center;
-  padding-top: 200px;
+  padding-top: 17%;
+  
 }
 
 .banner__title-content{
-  margin-bottom: 20px;
-  width: 45%;
+  padding-right: 30px;
+  width: 670px;
 
 }
 .banner__title{
@@ -558,8 +570,7 @@
   width: 370px;
   height: 58px;
   margin-top: 40px;
-  margin-left: 170px;
-  margin-bottom: 200px;
+  
   background-color: rgba(255, 255, 255, 0);
   border: 2px solid #FFFFFF;
 }
@@ -568,9 +579,10 @@
   position: relative;
   background: #FFFFFF;
   border-radius: 10px;
-  width: 32%;
+  width: 35%;
   display:flex;
   flex-direction: column;
+  margin-bottom:130px;
 }
 
 .banner-form__input{
@@ -615,14 +627,14 @@
 .social{
   background-color: #F8EFEF;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .social__icons-block{
   display: flex;
   justify-content: center;
-  margin-right: 170px;
+  margin-right: 8%;
 }
 
 .social__icon-wrapper{
@@ -630,11 +642,12 @@
   justify-content: center;
   width: 55px;
   margin: 45px 20px 45px 20px;
+  
 }
 
 .social__text-wrapper{
   width: 470px;
-  margin-left: 170px;
+  margin-left: 8%;
 }
 
 .social__title{
@@ -647,4 +660,39 @@
   font-size: 18px;
   color: #86878B;
   margin-top: 18px;
+}
+
+/*Styles for a tablet*/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1299px) {
+  .customers{
+    margin: 0 auto;
+    width: 95%
+  }
+
+  .contact{
+    width: 95%;
+  }
+
+  .informaton{
+    width: 95%;
+  }
+  .banner__title-content{
+    width: 45%;
+  
+  }
+
+  .social__text-wrapper{
+    margin-left: 3%;
+  }
+
+  .social__icons-block{
+
+    margin-right: 3%;
+  }
+
+  .banner-form{
+    width: 40%;
+
+  }
 }
