@@ -99,7 +99,7 @@
   color: #000000;
   margin: 8px 0px auto;
 }
-
+/*Information section*/
 .awesome__tab{
   width: 200px;
   text-transform: uppercase;
@@ -144,20 +144,25 @@
   border-radius: 1px;
 }
 
+.awesome__information{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  margin-left: 9%;
+  margin-right: 2%;
+}
+
 .awesome__tab-content p{
   font-family: "Raleway";
   font-size: 18px;
-  line-height: 21px;
-  margin-right: 30px;
-  padding-left: 100px;
+  line-height: 21px
 }
 
 .awesome__tab-content h2{
   font-family: 'Open Sans';
   font-weight: bold;
   font-size: 30px;
-  padding: 40px 100px 0;
-  margin-bottom: 25px;
 }
 
 .awesome__tab-content button{
@@ -170,7 +175,6 @@
   text-transform: capitalize;
   width: 270px;
   height: 58px;
-  margin: 28px 100px;
   background: #EC7979;
   border: none;
 }
@@ -430,7 +434,6 @@
   display: flex;
   flex-direction: column;
   width: 49%;
-  
 }
 
 .contact-form__input{
@@ -520,7 +523,7 @@
 /*banner2 section*/
 .banner{
   background: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url("images/banner_background.png");
-  background-size: 100% 100%;
+  background-size:cover;
   width: 100%;
   padding-bottom: 200px;
 }
@@ -528,15 +531,14 @@
 .banner__wrapper{
   display: flex;
   justify-content: center;
-  padding-top: 17%;
-  
+  padding-top: 15%;
 }
 
 .banner__title-content{
   padding-right: 30px;
   width: 670px;
-
 }
+
 .banner__title{
   font: normal normal 500 48px "Raleway";
   text-transform: uppercase;
@@ -570,7 +572,6 @@
   width: 370px;
   height: 58px;
   margin-top: 40px;
-  
   background-color: rgba(255, 255, 255, 0);
   border: 2px solid #FFFFFF;
 }
@@ -582,7 +583,6 @@
   width: 35%;
   display:flex;
   flex-direction: column;
-  margin-bottom:130px;
 }
 
 .banner-form__input{
@@ -622,6 +622,7 @@
   background: #EC7979;
   border: none;
 }
+
 /*Social section*/
 
 .social{
@@ -653,7 +654,7 @@
 .social__title{
   font: normal normal 700 24px/1.35 "Open Sans";
   color: #333333;
-}
+} 
 
 .social__subtitle{
   font-family: "Raleway";
@@ -664,10 +665,10 @@
 
 /*Styles for a tablet*/
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1299px) {
+@media screen and (min-device-width: 1024px) and (max-device-width: 1299px) {
   .customers{
     margin: 0 auto;
-    width: 95%
+    width: 95%; 
   }
 
   .contact{
@@ -679,7 +680,6 @@
   }
   .banner__title-content{
     width: 45%;
-  
   }
 
   .social__text-wrapper{
@@ -687,12 +687,147 @@
   }
 
   .social__icons-block{
-
     margin-right: 3%;
   }
 
   .banner-form{
     width: 40%;
-
   }
 }
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .header__menu{
+    margin-right: 2%;
+  }
+  
+  .customers{
+    margin: 0 auto;
+    width: 95%
+  }
+
+  .contact{
+    width: 95%;
+  }
+
+  .informaton{
+    margin-top: 50px;
+    width: 95%;
+  }
+
+  .banner{
+    padding-bottom: 100px;
+  }
+/*banner section*/
+  .banner-form{
+    width: 50%;
+    margin-bottom: 0px;
+  }
+
+  .banner__wrapper{
+    padding-top: 13%;
+    margin: 0 2% 0 10%;
+    justify-content:space-between;
+  }
+
+  .banner__logo{
+    width: 110px;
+    padding-top: 22px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+  }
+
+  .banner__title-content{
+    width: 45%;
+    padding-right: 0px;
+  }
+
+  .banner__line{
+    width: 115px;
+    margin: 40px 0 30px 0;
+  }
+
+  .title-content__button{
+    width: 183px;
+    height: 50px;
+    margin: 30px 0 15px 0;
+  }
+
+  .banner__title{
+    font-size: 36px;
+  }
+
+  .banner__subtitle{
+    font-size: 14px;
+  }
+
+  .banner-form__input{
+    width:75%;
+  }
+
+  /*Social section*/
+  .social__text-wrapper{
+    margin-left: 3%;
+  }
+
+  .social__icons-block{
+    margin-right: 3%;
+  }
+
+  .social__icon-wrapper{
+    width: 50px;
+    margin: 30px 0px 30px 30px;
+  }
+
+  .social__title{
+    font-size: 18px;
+  } 
+
+  .social__subtitle{
+    font-size: 14px;
+  }
+
+  /*Information section*/
+
+  .awesome__tab{
+    width: 170px;
+  }
+  
+  .awesome__tab-checked{
+    width:170px;
+  }
+
+  .awesome__tab-content p{
+    font-size: 14px;
+  }
+
+  .awesome__tab-content h2{
+    font-size: 24px;
+  }
+
+  .awesome__tab-content button{
+    width: 230px;
+  }
+
+  .information__background img{
+    max-width: 400px;
+  }
+
+  /*Why this is awesome*/
+  .awesome__title{
+    font-size: 24px;
+  }
+
+  .awesome__line{
+    width: 140px;
+    margin-bottom: 32px;
+  }
+  .awesome__tittle-wrapper{
+    height: 120px;
+  }
+
+  .awesome__subtitle{
+    font-size: 14px;
+    margin-bottom: 70px;
+  }
+}/*закончил на awesome__container*/
