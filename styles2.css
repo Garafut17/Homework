@@ -67,9 +67,14 @@
 }
 
 .awesome__block{
-  display: inline-block;
-  width: 370px;
-  border: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  height:320px;
+  width: 30%;
+  margin:0 10px;
 }
 
 .awesome__icon-wrapper{
@@ -80,26 +85,25 @@
   justify-content: center;
   border: 1px solid #EC7979;
   border-radius: 90px;
-  margin: 0 auto 72px;
 }
 
 .awesome__block-title{
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  margin-bottom: 47px;
   text-align: center;
 }
 
-.awesome__header5__black{
+.awesome__subheader{
   font-family: "Raleway";
   font-size: 18px;
   display: flex;
   align-items: center;
   text-align: center;
   color: #000000;
-  margin: 8px 0px auto;
 }
+
 /*Information section*/
+
 .awesome__tab{
   width: 200px;
   text-transform: uppercase;
@@ -190,14 +194,20 @@
 
 .pricing__tittle-wrapper{
   padding-top: 50px;
-  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.pricing__subtitle{
+  font-family: "Raleway";
+  font-size: 18px;
+  text-align: center;
+  color: #86878B;
+  margin: auto;
+  margin-bottom: 80px;
+}
 
 .pricing__sheet{
-  margin-top: 80px;
   display: flex;
   justify-content: center;
 }
@@ -580,7 +590,8 @@
   position: relative;
   background: #FFFFFF;
   border-radius: 10px;
-  width: 35%;
+  width: 450px;
+  height: 470px;
   display:flex;
   flex-direction: column;
 }
@@ -690,9 +701,6 @@
     margin-right: 3%;
   }
 
-  .banner-form{
-    width: 40%;
-  }
 }
 
 
@@ -720,8 +728,8 @@
   }
 /*banner section*/
   .banner-form{
-    width: 50%;
-    margin-bottom: 0px;
+    width: 400px;
+    height: 450px;
   }
 
   .banner__wrapper{
@@ -809,8 +817,8 @@
     width: 230px;
   }
 
-  .information__background img{
-    max-width: 400px;
+  .information__background{
+    width:400px;
   }
 
   /*Why this is awesome*/
@@ -826,8 +834,50 @@
     height: 120px;
   }
 
-  .awesome__subtitle{
-    font-size: 14px;
-    margin-bottom: 70px;
+  .awesome__icon-wrapper{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
   }
-}/*закончил на awesome__container*/
+  .awesome__icon-wrapper img{
+    height: 70%;
+    width:70%
+  }
+  
+  .awesome__block-title{
+    font-size: 18px;
+  }
+  
+  .awesome__subheader{
+    font-size: 14px;
+  }
+  /*Pricing section*/
+  .pricing__subtitle{
+    margin-bottom: 50px;
+  }
+  .pricing__card{
+    width: 320px;
+    margin: 0 1%;
+  }
+  
+  .pricing__card_hover{
+    width: 320px;
+    margin-top: -20px;
+  }
+  
+  .pricing__card-title{
+    height: 45px;
+  }
+  
+  .pricing__card-price{
+    height: 90px;
+  }
+  
+  .pricing__card-subtitle{
+    height: 45px;
+  }
+  
+  .pricing__card-list-item{
+    height: 45px;
+  }
+}
