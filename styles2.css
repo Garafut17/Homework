@@ -654,6 +654,10 @@
   margin-right: 8%;
 }
 
+.social__icons-block-mobile{
+  display: none;
+}
+
 .social__icon-wrapper{
   display: flex;
   justify-content: center;
@@ -711,6 +715,10 @@
   .person{
     width: 85%;
     justify-content: space-around;
+  }
+
+  .banner__subtitle{
+    width: 55%;
   }
 
 }
@@ -777,6 +785,7 @@
 
   .banner__subtitle{
     font-size: 14px;
+    width: 65%;
   }
 
   .banner-form__input{
@@ -1028,7 +1037,7 @@
   .banner{
     padding-bottom: 100px;
   }
-/*banner section*/
+  /*banner section*/
   .banner-form{
     width: 400px;
     height: 450px;
@@ -1059,64 +1068,90 @@
   .title-content__button{
     width: 250px;
     height: 50px;
-    margin: 30px 0 15px 0;
+    margin: 30px 0 56px 0;
   }
 
   .banner__title{
     font-size: 36px;
+    text-align: center;
   }
 
   .banner__subtitle{
     font-size: 14px;
     width: 100%;
+    text-align: center;
   }
 
   .banner-form__input{
-    width:75%;
+    width: 85%;
   }
 
   /*Social section*/
+  .social{
+    flex-direction: column;
+  }
   .social__text-wrapper{
-    margin-left: 3%;
+    margin: 32px 0;
+    width: 90%
   }
 
   .social__icons-block{
-    margin-right: 3%;
+    display: none;
+  }
+  .social__icons-block-mobile{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
   }
 
   .social__icon-wrapper{
-    width: 50px;
-    margin: 30px 0px 30px 30px;
+    width: 56px;
+    margin: 0;
+    margin-bottom: 32px;
   }
 
   .social__title{
     font-size: 18px;
+    text-align: center;
   } 
 
   .social__subtitle{
     font-size: 14px;
+    text-align: center;
   }
 
   /*Information section*/
 
+  .awesome__tab-content{
+    padding: 30px 0;
+    margin:0;
+  }
+  .awesome__information{
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
   .awesome__tab{
-    width: 170px;
+    width: 96px;
   }
   
   .awesome__tab-checked{
-    width:170px;
+    width: 96px;
   }
 
   .awesome__tab-content p{
     font-size: 14px;
+    text-align: center;
   }
 
   .awesome__tab-content h2{
-    font-size: 24px;
+    font-size: 18px;
+    padding-bottom: 48px;
   }
 
   .awesome__tab-content button{
-    width: 230px;
+    width: 240px;
+    margin-top: 30px;
   }
 
   .information__background{
@@ -1125,17 +1160,26 @@
 
   /*Why this is awesome*/
   .awesome__title{
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .awesome__line{
     width: 140px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
   }
   .awesome__tittle-wrapper{
     height: 120px;
   }
 
+  .awesome__container{
+    flex-wrap: wrap;
+  }
+  .awesome__block{
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:0 10px;
+  }
   .awesome__icon-wrapper{
     width: 80px;
     height: 80px;
@@ -1154,18 +1198,29 @@
     font-size: 14px;
   }
   /*Pricing section*/
+
+  .pricing{
+    padding-bottom: 0;
+  }
+  
+  .pricing__sheet{
+    flex-wrap: wrap;
+  }
   .pricing__subtitle{
     font-size: 14px;
     margin-bottom: 50px;
   }
   .pricing__card{
-    width: 320px;
-    margin: 0 1%;
+    width: 280px;
+    padding: 0 40px 32px 40px;
+    margin: 0;
   }
   
   .pricing__card_hover{
-    width: 320px;
-    margin-top: -20px;
+    width: 280px;
+    padding: 0 40px;
+    padding: 0 20px 32px 20px;
+    margin: 0;
   }
   
   .pricing__card-title{
@@ -1186,6 +1241,7 @@
 
   .pricing__tittle-wrapper{
     height: 120px;
+    padding: 0;
   }
   /*Customers section*/
   .customers__subtitle{
@@ -1255,7 +1311,7 @@
 
   .awesome__subtitle{
     font-size: 14px;
-    margin-bottom: 72px;
+    margin-bottom: 48px;
   }
 
   .contact__tittle-wrapper{
